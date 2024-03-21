@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2024-03-20T23:40:40.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="e0Son_6x6BuCtXUirWRp" version="24.0.7" type="device">
+  <diagram name="Page-1" id="4U4I9D5LyiPyMbzQqx2w">
+    <mxGraphModel dx="1352" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-1" value="User takes picture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="200" as="sourcePoint" />
+            <mxPoint x="280" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-3" value="model predicts top ingredients as suggestion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="199.5" as="sourcePoint" />
+            <mxPoint x="500" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-5" value="User selects ingredients in the meal (option to edit manually)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="199.5" as="sourcePoint" />
+            <mxPoint x="710" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-7" value="User clicks on predict&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-9" value="model 2 takes former image&amp;nbsp; (+ depth imgae) + ingredient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="359.5" as="sourcePoint" />
+            <mxPoint x="200" y="359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-14" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;app makes api call to&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;open food facts for&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;ingredient, returns&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;nutrional info&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-15" value="multiply with mass to get prediciton for nutrional info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gq1VgQn_8ZEdUVi94Pho-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="100" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
